@@ -8,7 +8,7 @@ pcall(function()
     coroutine.resume(coroutine.create(function()
        wait(10)
        game.StarterGui:SetCore("SendNotification", {
-        Title = 'Join The Discord';
+        Title = 'Join The Discord!';
         Text = 'Join The Discord Because Why Not!';
         Duration = 10;
        })
